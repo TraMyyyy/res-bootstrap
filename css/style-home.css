@@ -1,0 +1,72 @@
+/* CSS for all */
+
+* {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* CSS for menu */
+
+.nav-link {
+    color: palevioletred !important;
+    size: 2rem !important;
+    font: bold;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+h1 {
+    color: white;
+}
+
+.card:hover {
+    opacity: 0.6;
+}
+
+.card-group {
+    padding: 0 10%;
+}
+
+.card {
+    margin: 0 4%;
+}
+
+.card-img-overlay {
+    padding: 0% !important;
+}
+
+.card-footer {
+    margin-top: 90%;
+}
+
+
+/* CSS for search */
+
+.search {
+    background-image: url(../images/bg.jpg);
+    padding: 6%;
+}
+
+.d-flex {
+    width: 50%;
+}
+
+.btn {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* CSS for menu */
