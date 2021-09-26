@@ -20,7 +20,7 @@
     <a class="nav-link nv fw-bold" href="dashboard.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link nv fw-bold" href="#">Admin</a>
+    <a class="nav-link nv fw-bold" href="manage-user.php">Admin</a>
   </li>
   <li class="nav-item">
     <a class="nav-link nv fw-bold" href="manage-categories.php">Categories</a>

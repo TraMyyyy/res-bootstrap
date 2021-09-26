@@ -20,7 +20,7 @@
     <a class="nav-link nv fw-bold" href="dashboard.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link nv fw-bold" href="#">Admin</a>
+    <a class="nav-link nv fw-bold" href="manage-user.php">Admin</a>
   </li>
   <li class="nav-item">
     <a class="nav-link nv fw-bold" href="manage-categories.php">Categories</a>
@@ -60,7 +60,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr >
           <th scope="row">1</th>
           <td>Mixed Pizza</td>
           <td>5.0</td>
@@ -69,9 +69,8 @@
           <td>Yes</td>
           <td>
             <div class ="row">
-              
-            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
-            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+            <a href="#" class = "col-4 col-auto rounded bg-success text-decoration-none p-1 m-1 text-center"><h3>Update Category</h3></a>
+            <a href="#" class = "col-4 col-auto rounded bg-danger text-decoration-none p-1 m-1 text-center"><h4>Delete Category</h4></a>
           </div>
           </td>
         </tr>
@@ -85,8 +84,8 @@
           <td>
             <div class ="row">
               
-            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
-            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+            <a href="#" class = "col-4 col-auto rounded bg-success text-decoration-none p-1 m-1 text-center"><h3>Update Category</h3></a>
+            <a href="#" class = "col-4 col-auto rounded bg-danger text-decoration-none p-1 m-1 text-center"><h4>Delete Category</h4></a>
           </div>
           </td>
         </tr>
@@ -100,8 +99,8 @@
           <td>
             <div class ="row">
               
-            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
-            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+            <a href="#" class = "col-4 col-auto rounded bg-success text-decoration-none p-1 m-1 text-center"><h3>Update Category</h3></a>
+            <a href="#" class = "col-4 col-auto rounded bg-danger text-decoration-none p-1 m-1 text-center"><h4>Delete Category</h4></a>
           </div>
           </td>
         </tr>
@@ -116,8 +115,8 @@
           <td>
             <div class ="row">
               
-            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
-            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+            <a href="#" class = "col-4 col-auto rounded bg-success text-decoration-none p-1 m-1 text-center"><h3>Update Category</h3></a>
+            <a href="#" class = "col-4 col-auto rounded bg-danger text-decoration-none p-1 m-1 text-center"><h4>Delete Category</h4></a>
           </div>
           </td>
         </tr>

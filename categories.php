@@ -49,37 +49,36 @@
     Explore Foods
   </div>
 <div class ="row row-cols-1 row-cols-md-3 justify-content-left"> 
-    <div class ="col-auto">
-    <a href="#"class = "card" style ="width:100%">
+    <div class ="col col-auto">
+    <a href="#"class = "card p-0 m-5" style ="width:auto">
       <img src="images/pizza.jpg" class ="card-img" alt="#">
        <div class = "card-img-overlay ">
          <h1 class ="card-footer text-center ">Pizza</h1>
         </div>
     </a>
     </div>
-    <div class = "col-auto">
-    <a href="#"class = "card"  style ="width:100%">
+    <div class = "col col-auto">
+    <a href="#"class = "card p-0 m-5"  style ="width:auto">
       <img src="images/burger.jpg" class ="card-img" alt="#">
        <div class = "card-img-overlay">
          <h1 class ="card-footer text-center">Burger</h1>
       </div>
     </a>
     </div>
-    <div class ="col-auto">
-    <a href="#"class = "card" style ="width:100%">
+    <div class ="col col-auto">
+    <a href="#"class = "card p-0 m-5" style ="width:auto">
       <img src="images/momo.jpg" class ="card-img" alt="#">
        <div class = "card-img-overlay">
          <h1 class ="card-footer text-center">Momo</h1>
       </div>
     </a>
     </div>
-    <div class ="col-auto">
-      <a href="#" class = "card">
-    <img src="images/pizza1.jpg" class="card-img" alt="...">
+    <div class ="col col-auto">
+      <a href="#" class = "card p-0 m-5 opacity-75" style="width:auto">
+    <img src="images/pizza1.jpg" class="card-img" alt="#">
     <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <h1 class="card-title">Food - Order Website</h1>
+    <h3 class = "card-text text-warning bg-none">PHP & MySQL</h3>
   </div></a>
     </div>
 </div>
