@@ -1,80 +1,78 @@
-/* CSS for all */
-
-* {
-    font-family: Arial, Helvetica, sans-serif !important;
-}
-
-.nav-link {
-    color: palevioletred !important;
-    size: 2rem !important;
-    font: bold;
-}
-
-.nav-link:hover {
-    color: red !important;
-}
-
-h1 {
-    color: white;
-}
-
-.ex:hover {
-    opacity: 0.6;
-}
-
-.card-group {
-    padding: 0 10%;
-}
-
-.card {
-    margin: 0 4%;
-}
-
-.card-img-overlay {
-    padding: 0% !important;
-}
-
-.card-footer {
-    margin-top: 90%;
-}
-
-h2 {
-    color: hotpink;
-}
-
-h3 {
-    font-size: 1rem !important;
-}
-
-
-/* CSS for search */
-
-.search {
-    background-image: url(../images/bg.jpg);
-    padding: 6%;
-}
-
-.d-flex {
-    width: 50%;
-}
-
-.btn {
-    background-color: palevioletred;
-    color: white;
-    border: none;
-}
-
-.btn:hover {
-    background-color: red;
-    color: white;
-}
-
-
-/* CSS for menu */
-
-.menu {
-    background-color: rgb(214, 214, 214);
-}
-
-
-/* CSS for footer */
+    /* CSS for all */
+    
+    * {
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    
+    .nav-link {
+        color: palevioletred !important;
+        size: 2rem !important;
+        font: bold;
+    }
+    
+    .nav-link:hover {
+        color: red !important;
+    }
+    
+    h1 {
+        color: white;
+    }
+    
+    .ex:hover {
+        opacity: 0.6;
+    }
+    
+    .card-group {
+        padding: 0 10%;
+    }
+    
+    .card {
+        margin: 0 4%;
+    }
+    
+    .card-img-overlay {
+        padding: 0% !important;
+    }
+    
+    .card-footer {
+        margin-top: 90%;
+    }
+    
+    h2 {
+        color: hotpink;
+    }
+    
+    h3 {
+        font-size: 1rem !important;
+    }
+    /* CSS for search */
+    
+    .search {
+        background-image: url(../images/bg.jpg);
+        padding: 6%;
+    }
+    
+    .d-flex {
+        width: 50%;
+    }
+    
+    .btn {
+        background-color: palevioletred;
+        color: white;
+        border: none;
+    }
+    
+    .btn:hover {
+        background-color: red;
+        color: white;
+    }
+    /* CSS for menu */
+    
+    .menu {
+        background-color: rgb(214, 214, 214);
+    }
+    
+    .nu {
+        padding-left: 30% !important;
+    }
+    /* CSS for footer */

@@ -42,7 +42,7 @@
     <!-- Navbar end here -->
 
     <!-- Search start here -->
-<nav class="navbar mb-0">
+<nav class="navbar mb-0 p-0">
   <div class="container-fluid search justify-content-center">
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search for Foods..." aria-label="Search">
@@ -54,12 +54,12 @@
 
 
 <!-- Food menu start here -->
-<div class = "menu py-5">
+<div class = "menu py-5 m-0 ">
   <div class ="text-center fs-1 p-4 my-0 fw-bold">
     Food Menu
   </div>
-  <div class = "container">
-    <div class ="row row-cols-1 row-col-mb-2 justify-content-center">
+  <div class = "container ">
+    <div class ="row  row-cols-1 row-col-mb-2 justify-content-left ms-5">
       <div class = "col col-auto rounded-3">
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
@@ -143,7 +143,6 @@
             </div>
          </div>
         </div>
-        
       </div>
       </div>
     </div>

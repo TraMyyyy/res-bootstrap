@@ -21,16 +21,16 @@ h1 {
     color: white;
 }
 
-.ex:hover {
+.card:hover {
     opacity: 0.6;
 }
 
 .card-group {
-    padding: 0 10%;
+    padding: 5% 10%;
 }
 
 .card {
-    margin: 0 4%;
+    margin: 5% 10%;
 }
 
 .card-footer {
@@ -51,10 +51,3 @@ h3 {
 .menu {
     background-color: rgb(214, 214, 214);
 }
-
-.card {
-    padding: 10%;
-}
-
-
-/* CSS for footer */
