@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Manage order</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="css/style-manage-order.css">
   </head>
   <body>
@@ -38,79 +38,41 @@
 </ul>
 <!-- Navbar end here -->
 
-<!-- Manage Order start here -->
+<!-- Dashboard start here -->
 <div class ="my-0 manage d-flex">
   <div class = "container">
   <div class = "title m-4">
-    <h1>Manage Order</h1>
+    <h1>Dashboard</h1>
   </div>
-  <div class ="table-responsive">
-      <table class="table m-4">
-      <thead>
-        <tr>
-          <th scope="col col-auto">S.N.</th>
-          <th scope="col col-auto">Food</th>
-          <th scope="col col-auto">Price</th>
-          <th scope="col col-auto">Qty.</th>
-          <th scope="col col-auto">Total</th>
-          <th scope="col col-auto">Order Date</th>
-          <th scope="col col-auto">Status</th>
-          <th scope="col col-auto">Customer Name</th>
-          <th scope="col col-auto">Contact</th>
-          <th scope="col col-auto">Email</th>
-          <th scope="col col-auto">Address</th>
-          <th scope="col col-auto">Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-success">Delivered</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-success">Delivered</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-danger">Cancelled</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
-        </tr>
-      </tbody>
-    </table>
-</div>
+      <div class = "row row-cols row-cols-md-4">
+        <div class = "col col-auto">
+            <div class = "card m-5 p-4">
+                <h5 class ="p-1"><center>3</center></h5>
+                <h5 class ="p-1"><center>Categories</center></h5>
+            </div>
+        </div>
+        <div class = "col col-auto">
+            <div class = "card m-5 p-4">
+                <h5 class ="p-1"><center>6</center></h5>
+                <h5 class ="p-1"><center>Foods</center></h5>
+            </div>
+        </div>
+        <div class = "col col-auto">
+            <div class = "card m-5 p-4">
+                <h5 class ="p-1"><center>3</center></h5>
+                <h5 class ="p-1"><center>Total Orders</center></h5>
+            </div>
+        </div>
+        <div class = "col col-auto">
+            <div class = "card m-5 p-4">
+                <h5 class ="p-1"><center>$36.00</center></h5>
+                <h5 class ="p-1"><center>Revenue Generated</center></h5>
+            </div>
+        </div>
+      </div>
   </div>
 </div>
-<!-- Manage Order end here -->
+<!-- Dashboard end here -->
 
 <!-- Footer start here -->
 <div class = "bg-danger my-0 pt-2">

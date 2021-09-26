@@ -1,4 +1,40 @@
 /* CSS for all */
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* CSS for navbar */
+.nv {
+    color: palevioletred !important;
+}
+
+.nv:hover {
+    color: red !important;
+}
+
+
+/* CSS for manage order*/
+
+.manage {
+    background-color: rgb(240, 234, 234) !important;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem !important;
+    color: white;
+}
+
+h3 {
+    color: black;
+    font-size: 1rem;
+    background-color: seagreen;
+    padding: 1%;
+}
+
+h4 {
+    color: white;
+    font-size: 1rem;
+    background-color: red;
+    padding: 1%;
+}

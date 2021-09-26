@@ -182,7 +182,7 @@
 <div class = "container my-4">
   <div class = "footer row justify-content-center">
     <h3 class = "col-auto px-0">All rights reversed. Designed by </h3>
-    <h3 class = "content col-auto px-1 text-pink-50">CSE485</h3>
+    <h3 class = "content col-auto px-1 text-danger">CSE485</h3>
   </div>
 </div>
 <!-- Footer end here -->

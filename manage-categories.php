@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Manage order</title>
+    <title>Manage Food</title>
     <link rel="stylesheet" href="css/style-manage-order.css">
   </head>
   <body>
@@ -42,69 +42,86 @@
 <div class ="my-0 manage d-flex">
   <div class = "container">
   <div class = "title m-4">
-    <h1>Manage Order</h1>
+    <h1>Manage Category</h1>
+    <a href="#" class = "btn bg-primary text-light">Add category</a>
   </div>
+    
   <div class ="table-responsive">
       <table class="table m-4">
       <thead>
         <tr>
           <th scope="col col-auto">S.N.</th>
-          <th scope="col col-auto">Food</th>
+          <th scope="col col-auto">Title</th>
           <th scope="col col-auto">Price</th>
-          <th scope="col col-auto">Qty.</th>
-          <th scope="col col-auto">Total</th>
-          <th scope="col col-auto">Order Date</th>
-          <th scope="col col-auto">Status</th>
-          <th scope="col col-auto">Customer Name</th>
-          <th scope="col col-auto">Contact</th>
-          <th scope="col col-auto">Email</th>
-          <th scope="col col-auto">Address</th>
-          <th scope="col col-auto">Actions</th>
+          <th scope="col col-auto">Images</th>   
+          <th scope="col col-auto">Feature</th>
+          <th scope="col col-auto">Active</th>
+          <th scope="col col-auto">Action</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">1</th>
           <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-success">Delivered</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
+          <td>5.0</td>
+          <td><img src="images/pizza.jpg" alt="" style = "width:10rem"></td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>
+            <div class ="row">
+              
+            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
+            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+          </div>
+          </td>
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-success">Delivered</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
+          <td>Burger Specials</td>
+          <td>5.0</td>
+          <td><img src="images/burger.jpg" alt="" style = "width:10rem"></td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>
+            <div class ="row">
+              
+            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
+            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+          </div>
+          </td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Mixed Pizza</td>
-          <td>10.0</td>
-          <td>2</td>
-          <td>20.0</td>
-          <td>11:13:40</td>
-          <td class = "text-danger">Cancelled</td>
-          <td>Jana Bush</td>
-          <td>012345678</td>
-          <td>xxxx@gmail.com</td>
-          <td>123 Ant Street</td>
-          <td><h2 class ="bg-success text-wrap badge">Update Order</h2></td>
+          <td>Dumplings Specials</td>
+          <td>5.0</td>
+          <td><img src="images/momo.jpg" alt="" style = "width:10rem"></td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>
+            <div class ="row">
+              
+            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
+            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+          </div>
+          </td>
         </tr>
+        <tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Mixed Pizza</td>
+          <td>5.0</td>
+          <td><img src="images/pizza.jpg" alt="" style = "width:10rem"></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>
+            <div class ="row">
+              
+            <a href="#" class = " col-auto text-decoration-none"><h3>Update Category</h3></a>
+            <a href="#" class = "col-auto text-decoration-none"><h4>Delete Category</h4></a>
+          </div>
+          </td>
+        </tr>
+       
       </tbody>
     </table>
 </div>
